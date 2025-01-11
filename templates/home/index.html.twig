@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container section mt-5">
+        <div class="row" style="margin-top: 150px;">
+            <div class="col-lg-8 m-lg-5">
+                <h1 class="mb-4 display-4 fw-bold text-dark animate__animated animate__fadeInDown">
+                    Hello Stranger! <br>
+                    <span class="dynamic-typing">I am Sassi Lokman</span>
+                </h1>
+                <p class="lead animate__animated animate__fadeInUp">Full Stack Developer | Networks & Distributed Systems Engineer.</p>
+                <div class="row g-3">
+                    <div class="col-md-auto">
+                        <a href="https://drive.google.com/file/d/1k_RzHlrx3-yCDVDe99sLVHtEKT8Hhizw/view?usp=sharing" class="btn btn-outline-secondary animate__animated animate__fadeInUp w-100" target="_blank">
+                            <i><span>My Resume</span></i>
+                        </a>
+                    </div>
+                    <div class="col-md-2 d-flex animate__animated animate__fadeInUp" style="margin-top: 21px;">
+                        <a href="https://github.com/lokman-sassi" style="margin-right: 7px;" target="_blank">
+                            <img src="{{ asset('uploads/github.png') }}" alt="" style="height: 20px">
+                        </a>
+                        <a href="https://www.linkedin.com/in/loukman-sassi-bb1b9a1b6/" target="_blank">
+                            <img src="{{ asset('uploads/linkedin.png') }}" alt="" style="height: 20px;">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
