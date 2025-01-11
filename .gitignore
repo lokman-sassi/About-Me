@@ -5,8 +5,12 @@
 /.env.*.local
 /config/secrets/prod/prod.decrypt.private.php
 /public/bundles/
+/public/uploads/*
 /var/
 /vendor/
+.env
+.env.dev
+.env.test
 ###< symfony/framework-bundle ###
 
 ###> phpunit/phpunit ###
